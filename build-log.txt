@@ -1,0 +1,49 @@
+2022-08-09 14:19:44.033 xcodebuild[2522:130945] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+2022-08-09 14:19:44.035 xcodebuild[2522:130945] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project Landmarks.xcodeproj -scheme Landmarks -arch arm64 -sdk iphoneos
+
+User defaults from command line:
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Build settings from command line:
+    ARCHS = arm64
+    SDKROOT = iphoneos15.5
+
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:iOS, id:dvtdevice-DVTiPhonePlaceholder-iphoneos:placeholder, name:Any iOS Device }
+{ platform:iOS Simulator, id:dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name:Any iOS Simulator Device }
+{ platform:iOS Simulator, id:EEEBF830-D8AE-463C-B503-04243677C809, OS:15.5, name:iPad (9th generation) }
+{ platform:iOS Simulator, id:F83222C5-8D5E-4D52-BF12-7AD6A1F32801, OS:15.5, name:iPad Air (5th generation) }
+{ platform:iOS Simulator, id:3E3F9171-D4A0-4923-8E07-C37D1A2C6DAE, OS:15.5, name:iPad Pro (9.7-inch) }
+{ platform:iOS Simulator, id:E71FCE49-22B7-4822-B81F-264D5468E553, OS:15.5, name:iPad Pro (11-inch) (3rd generation) }
+{ platform:iOS Simulator, id:3E6CBEE8-A972-4D1B-9AD8-3FB1D1B0D2E1, OS:15.5, name:iPad Pro (12.9-inch) (5th generation) }
+{ platform:iOS Simulator, id:4673D991-8CDB-4A4C-858D-007540CD52CE, OS:15.5, name:iPad mini (6th generation) }
+{ platform:iOS Simulator, id:36F2F4C6-292E-48C9-9AC5-9B9B78049F27, OS:15.5, name:iPhone 8 }
+{ platform:iOS Simulator, id:943FC232-787E-458F-A70B-4B2D553398BE, OS:15.5, name:iPhone 8 Plus }
+{ platform:iOS Simulator, id:DD2828A7-1E2F-4DC9-9823-389A06A680A2, OS:15.5, name:iPhone 11 }
+{ platform:iOS Simulator, id:50F3012D-10C9-475F-9D27-9AA9BD4BCEC9, OS:15.5, name:iPhone 11 Pro }
+{ platform:iOS Simulator, id:4A06D308-F2A6-41FB-8546-E9882F96E872, OS:15.5, name:iPhone 11 Pro Max }
+{ platform:iOS Simulator, id:907B2EC1-8823-43F4-B74E-0C6E22F2B854, OS:15.5, name:iPhone 12 }
+{ platform:iOS Simulator, id:E389465B-51D1-44DE-921D-FF7708D22531, OS:15.5, name:iPhone 12 Pro }
+{ platform:iOS Simulator, id:1EC21FEB-27B9-4BCF-BFC3-7F9D78536887, OS:15.5, name:iPhone 12 Pro Max }
+{ platform:iOS Simulator, id:6B83A15D-E9D7-4C9F-8957-D15B087A4E13, OS:15.5, name:iPhone 12 mini }
+{ platform:iOS Simulator, id:0A76DEDB-6A6E-411D-B147-6427AA4495F5, OS:15.5, name:iPhone 13 }
+{ platform:iOS Simulator, id:7EFAB04D-69E9-4F03-94B6-86B56F98A79A, OS:15.5, name:iPhone 13 Pro }
+{ platform:iOS Simulator, id:8017E54F-5996-41B4-9437-04CF83B0F708, OS:15.5, name:iPhone 13 Pro Max }
+{ platform:iOS Simulator, id:6F88A6B0-86E3-4596-932F-9FA1128502B2, OS:15.5, name:iPhone 13 mini }
+{ platform:iOS Simulator, id:789CAC6D-D121-4EF9-B3ED-28C6CC5A5B9A, OS:15.5, name:iPhone SE (3rd generation) }
+{ platform:iOS Simulator, id:9D1796D5-5FDE-4E0B-8FC6-07687C4F993F, OS:15.5, name:iPod touch (7th generation) }
+note: Using new build system
+note: Planning
+Analyze workspace
+
+Create build description
+Build description signature: 8421e2db5d37181a984e7ade07848656
+Build description path: /Users/francisco/Library/Developer/Xcode/DerivedData/Landmarks-eejwaskmltbnywawqjcqbxodvotg/Build/Intermediates.noindex/XCBuildData/8421e2db5d37181a984e7ade07848656-desc.xcbuild
+
+note: Build preparation complete
+note: Building targets in dependency order
+error: No profiles for 'microsoft.Landmarks' were found: Xcode couldn't find any iOS App Development provisioning profiles matching 'microsoft.Landmarks'. Automatic signing is disabled and unable to generate a profile. To enable automatic signing, pass -allowProvisioningUpdates to xcodebuild. (in target 'Landmarks' from project 'Landmarks')
+** BUILD FAILED **
+
